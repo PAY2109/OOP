@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>617</width>
+    <height>537</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>100</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="accessibleName">
+     <string>lineEdit</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>160</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="revL">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>160</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reverse Lower</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="revH">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>100</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reverse Higher</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="revAll">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>220</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reverse All</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="swap">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>290</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Swap</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="concat">
+    <property name="geometry">
+     <rect>
+      <x>182</x>
+      <y>290</y>
+      <width>101</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>concat(H=H+L)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="concatL">
+    <property name="geometry">
+     <rect>
+      <x>352</x>
+      <y>290</y>
+      <width>101</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>concat(L=H+L)</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>617</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

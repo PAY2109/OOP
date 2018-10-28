@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1540033629 source:c:\users\pavel\desktop\Лабораторные работы\3 семестр\oop\5_2\src\stack.cpp
+	"stack.h"
+
+1540497252 c:\users\pavel\desktop\Лабораторные работы\3 семестр\oop\5_2\include\stack.h
+	<iostream>
+
+1540496343 source:c:\users\pavel\desktop\Лабораторные работы\3 семестр\oop\5_2\main.cpp
+	<iostream>
+	"stack.h"
+	<string>
+	"string.h"
+

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1539970847 source:c:\users\pavel\desktop\Лабораторные работы\3 семестр\oop\lab5\src\complex.cpp
+	"complex.h"
+	<iostream>
+	<stdlib.h>
+
+1540221525 c:\users\pavel\desktop\Лабораторные работы\3 семестр\oop\lab5\include\complex.h
+	<iostream>
+
+1540031049 source:c:\users\pavel\desktop\Лабораторные работы\3 семестр\oop\lab5\main.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	"complex.h"
+
