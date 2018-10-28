@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
+    MainWindow::setWindowTitle("Calculator");
     actnum=1;
     result=0;
     diverr=0;
@@ -26,8 +26,20 @@ MainWindow::~MainWindow()
 
 void MainWindow::actor()
 {
+    int l;
     QString tmp;
+    bool chk=false,zatychka;
     tmp=line1->text();
+    l=tmp.length();
+    for (int i=0; i<l;i++)
+    {
+        if(tmp[i]== ' ' || tmp[i]== '+' || tmp[i]== '-'|| tmp[i]== '*'|| tmp[i]== '/' || (tmp[i]>='0'&& tmp[i]<='9')) zatychka=0;
+        else chk=true;
+
+
+    }
+    if (chk==false)
+    {
     list = tmp.split(' ', QString::SkipEmptyParts);
 
     if (list[1]=='+')
@@ -49,8 +61,15 @@ void MainWindow::actor()
     }
     else
     {
-       QString tmp= "ERROR";
-       text1->append(tmp);
+       QString er= "ERROR";
+       text1->append(er);
+    }
+    }
+    else
+    {
+        QString er= "ERROR";
+        text1->append(er);
+
     }
 
 
