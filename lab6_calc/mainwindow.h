@@ -30,6 +30,9 @@ public slots:
     void div();
     void print();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     QLineEdit* line1;
